@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portafolio</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area">
+		<div class="container-fluid">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="#">Jorge Duarte</a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#"><i class="fas fa-user-check"></i>Acerca de mi</a>
+				  </li>
+					
+				  <li class="nav-item">
+					<a class="nav-link" href="servicios.html"><i class="fas fa-concierge-bell"></i>Servicios</a>
+				  </li>
+				
+				  <li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-folder"></i>Portafolio de Proyectos</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-id-card"></i>Contacto</a>
+				  </li>
+				 
+				 
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+		
+	  <section id="hero" class="menu-principal">
+		<div class="container">
+			
+			<h2 class="title"> HACEMOS DE TODO&nbsp; </h2>
+			<p class="subtitle">Deja tu trabajo a los expertos</p>
+			</div>
+			</section>
+		
+ <section id="servicios" class="menu-principal">
+		
+				<div class="row">
+					
+		
+			<article class="col-md-12 col-sm-12 col-12 ">
+				<img src="img/Jorge-p.png" class="img-fluid m-auto foto-perfil" alt="Jorge">
+			<p> Aqui te muestro algunos de mi servicios que te puede interesar</p>	
+				<a href="servicios.html" class="btn btn-outline-light bandera-bton">Servicios</a>
+			</article>
+			
+			
+	
+				</div>
+			
+			
+			</section>
+			
+		<footer>
+	<section id="info">
+		
+		<div class="container">
+		<div class="row">
+			
+			<article class="col-md-3 col-sm-6 col-12">
+			<p class="Jorge">Jorge Duarte</p>
+			
+			
+			</article>
+			
+				<article class="col-md-3 col-sm-6 col-12">
+			
+			<h3>Correo</h3>
+					<p>jdaniloduarte@yahoo.com.mx</p>
+			
+			</article>
+			
+				<article class="col-md-3 col-sm-6 col-12">
+			<h3> Numero</h3>
+					<p>+5049797xxx</p>
+			
+			
+			</article>
+			
+				<article class="col-md-3 col-sm-6 col-12">
+			
+			<h3>Red Social</h3>
+					<ul class="list-inline">
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						
+			</ul>
+			</article>
+			
+			
+			
+			</div>
+		
+		
+		
+		
+		</div>
+		
+		
+		
+		</section>
+		<section id="copy">
+			<div class="container">
+			<p>copyright</p>
+			
+			</div>
+	
+		</section>
+	</footer>
+	</header>
+    
+
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#navbar').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+			
+			
+			
+		});
+	</script>
+</body>
+
+</html>

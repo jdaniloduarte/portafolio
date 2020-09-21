@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+	
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+   /* position: fixed;*/
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+#hero{
+	background-image:url("../img/dj-720589_1920.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10%;
+	text-align: center;
+	color: #AC090C;
+}
+#hero-menu-servicios{
+	background-image:url("../img/thumb-1920-162193.jpg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10%;
+	text-align: center;
+	color: #AC090C;
+}
+
+#hero-menu-servicios h2{
+	font-size: 90px;
+	font-weight: 600;
+}
+#servicios{
+	
+background-color: #111111;
+	padding: 5%;
+	color: #AC090C;
+	text-align: center;
+	
+}
+
+.bandera-bton{
+	text-align: center;
+}
+.btn-outline-light{
+	color: #AC090C;
+
+	border-color: #AC090C;
+}
+#servicios p {
+	padding: 3%;
+}
+
+.negro-bg{
+	
+	color: #FFFDFD;
+	background-color: #000000;
+	text-align: center;
+	padding: 8%;
+}
+	
+
+.title{
+	font-size: 70px;
+	color: #AC090C;
+}
+
+.subtitle{
+	padding-top: 8%;
+	font-size: 50px;
+}
+
+#trabajos-j{
+	padding-top: 5%;
+	background-color: #000000;
+}
+footer{
+	text-align: center;
+}
+
+#info{
+	margin: 3%;
+
+}
+
+.Jorge{
+	padding-top: 15%;
+}
+
+.titletrabajo{
+	color:  #AC090C;
+	text-align: center;
+	padding: 5%;
+}
